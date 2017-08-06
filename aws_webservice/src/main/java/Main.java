@@ -1,5 +1,3 @@
-package cloudbreakers.services;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -21,10 +19,7 @@ import java.util.logging.SimpleFormatter;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 
-import cloudbreakers.pojos.DataSourceUtil;
-import cloudbreakers.pojos.DataSourceUtil.DataSourceType;
-import cloudbreakers.pojos.PDC_Encryption;
-import cloudbreakers.pojos.ScoreCalculatorAndCensor;
+
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Future;
